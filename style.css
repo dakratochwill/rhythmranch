@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Lato:wght@300&display=swap');
+
+body {
+    background: #edeae5;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+hr {
+    border: 1px solid #fff;
+    margin: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.rounded {
+    border-radius: 50% !important;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bodoni Moda', serif;
+    color: #2f3d4c;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 0px;
+    line-height: 1.5;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.grid-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.grid-col-2 p {
+    font-size: 25px;
+}
+
+.grid-col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+header {
+    margin: 30px 0px 50px;
+}
+
+.logo {
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+nav {
+    font-family: 'Bodoni Moda', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 30px 0px 50px;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+nav li a {
+    margin: 0px 20px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #2f3d4c;
+}
+
+nav li a:hover {
+    background: #cedadd;
+    color: #2f3d4c;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+main.sub .container {
+    max-width: 1000px;
+}
+
+.grid-item h3 {
+    padding: 15px 0px;
+    margin: 0px
+}
+
+footer {
+    background: #2f3d4c;
+    padding: 20px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 16px;
+}
+
+footer i {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 20px
+}
+
+footer .address {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #999;
+    margin: 20px 0px;
+}
+
+@media screen and (max-width: 997px) {
+    .grid-col-2, .grid-col-3 {
+        grid-template-columns: auto;
+    }
+    
+    header {
+        margin: 60px 0px 50px;
+    }
+    
+    nav {
+        border: none;
+        background: #edeae5;
+    }
+    
+    
+    .navbar {
+        background: #edeae5;
+        position: fixed;
+        top: 0px;
+        left 0px;
+        width: 100%;
+        margin: 0px;
+    }
+
+
+    .navbar-toggler i {
+        color: #2f3d4c;
+        font-size: 30px;
+        padding: 10px 0px;
+    }
+
+}
