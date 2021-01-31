@@ -134,25 +134,27 @@ footer .address {
 }
 
 @media screen and (max-width: 997px) {
-    .grid-col-2, .grid-col-3 {
+
+    .grid-col-2,
+    .grid-col-3 {
         grid-template-columns: auto;
         grid-gap: 30px;
     }
-    
+
     header {
         margin: 60px 0px 50px;
     }
-    
+
     header .logo {
         margin: 0px 10px;
     }
-    
+
     nav {
         border: none;
         background: #edeae5;
     }
-    
-    
+
+
     .navbar {
         background: #edeae5;
         position: fixed;
@@ -168,7 +170,11 @@ footer .address {
         font-size: 30px;
         padding: 10px 0px;
     }
-    
+
+    nav li {
+        text-align: center;
+    }
+
     .grid-col-2 p {
         font-size: 18px;
     }
