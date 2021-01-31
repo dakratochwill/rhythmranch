@@ -136,6 +136,7 @@ footer .address {
 @media screen and (max-width: 997px) {
     .grid-col-2, .grid-col-3 {
         grid-template-columns: auto;
+        grid-gap: 30px;
     }
     
     header {
