@@ -223,6 +223,7 @@ footer .address {
 
     header .logo {
         margin: 0px auto 0px;
+        max-width: 300px;
     }
 
     nav {
